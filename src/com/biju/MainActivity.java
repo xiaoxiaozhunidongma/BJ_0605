@@ -27,6 +27,8 @@ public class MainActivity extends FragmentActivity {
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.fragment_tabs);
+		  
+		//add 
 		
 		
 		//≤‚ ‘
