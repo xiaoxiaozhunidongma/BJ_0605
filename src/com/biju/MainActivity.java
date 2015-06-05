@@ -27,6 +27,10 @@ public class MainActivity extends FragmentActivity {
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.fragment_tabs);
+		//我加入的
+		
+		//测试
+		new Interface().testIf(this);
 		initUI();// 初始化Tabhost
 	}
 

@@ -152,7 +152,6 @@ public class Interface {
 		
 		volleyPost(context,per);
 	}
-//	hjhjhjh
 	//×¢²áÐÂÓÃ»§
 	public void regNewAccount(Context context,User user) {
 		volleyPost(context,packParams(user, kRegAccount));
