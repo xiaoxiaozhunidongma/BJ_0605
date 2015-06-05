@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#FF0000</color><!-- 红色 -->
+    <color name="lightgray">#939393</color><!-- 浅灰色 -->
+</resources>

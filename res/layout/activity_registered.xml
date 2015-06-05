@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".RegisteredActivity" >
+
+    <!--
+         <ImageView
+        android:id="@+id/registered_head"
+        android:layout_width="80.0dp"
+        android:layout_height="80.0dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/login_1" />
+    -->
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <RelativeLayout
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" >
+
+            <TextView
+                android:id="@+id/registered_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="关闭"
+                android:textColor="#d3d3d3"
+                android:textSize="17.0sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/registered_OK"
+        android:layout_width="80.0dp"
+        android:layout_height="80.0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/login_selector"
+        android:gravity="center"
+        android:text="完成"
+        android:textColor="#ffffff"
+        android:textSize="18.0sp" />
+
+    <EditText
+        android:id="@+id/registered_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/registered_OK"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="请输入一个昵称"
+        android:textSize="18.0sp" />
+
+    <ImageView
+        android:id="@+id/registered_head"
+        android:layout_width="80.0dp"
+        android:layout_height="80.0dp"
+        android:layout_alignLeft="@+id/registered_OK"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/login_1" />
+
+</RelativeLayout>
